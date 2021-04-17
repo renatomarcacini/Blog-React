@@ -1,0 +1,30 @@
+#categories{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 10px;
+    background: #202020;
+    border-radius: 5px;
+    height: 100%;
+}
+
+
+#categories ul{
+    list-style: none;
+    margin: 10px 0;
+}
+
+#categories li{
+    list-style: none;
+    margin: 10px 0;
+}
+
+#categories a{
+    color: #bbbbbb;
+    list-style: none;
+    text-decoration: none;
+}
+
+#categories a:hover{
+    text-decoration: underline;
+}

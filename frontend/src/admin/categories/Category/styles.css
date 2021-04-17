@@ -1,0 +1,28 @@
+.category-container{
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 30px;
+}
+
+
+.category-container h1{
+    margin: 15px 0;
+}
+
+.category-container table a{
+    text-transform: uppercase;
+    margin-right: 5px;
+    text-decoration: none;
+    color: #65F0FF;
+    background: #151515;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.category-container table a:hover{
+    opacity: 1;
+    filter: brightness(2);
+}

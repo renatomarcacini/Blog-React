@@ -1,0 +1,44 @@
+header#main-header{
+    background: #202020;
+    height: 55px;
+    display: flex;
+}
+
+header .header-container{
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header#main-header h3{
+    background: #202020;
+    height: 55px;
+    display: flex;
+}
+
+header#main-header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header#main-header li{
+    margin: 0 5px;
+}
+
+header#main-header a{
+    color: #bbbbbb;
+    padding: 5px;
+    display: flex;
+    height: 55px;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+header#main-header a:hover{
+    background: #181818;
+}

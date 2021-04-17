@@ -1,0 +1,169 @@
+.App{
+    display: flex;
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+blockquote{
+  border-left: 5px solid #707070;
+  padding-left: 5px;
+  background: #90909018;
+  margin: 5px 0;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font: 400 14px Roboto, sans-serif;
+    color: #bbbbbb;
+    background: #181818;
+    -webkit-font-smoothing: antialiased;
+}
+
+input, textarea, button{
+    font: 400 14px Roboto, sans-serif;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #202020;
+    border-radius: 5px;
+    margin: 15px 0;
+  }
+
+  tbody tr:hover{
+    background: #a0a0a062;
+  }
+  
+td, th {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #202020;
+}
+
+.table-buttons-paginated{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.table-button-page{
+  background: #202020;
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+  color: white;
+  margin: 5px 10px;
+  cursor: pointer;
+}
+
+.link-normal{
+  text-transform: uppercase;
+  margin-right: 5px;
+  text-decoration: none;
+  color: #65F0FF;
+  background: #202020;
+  border: 0;
+  border-radius: 5px;
+  padding: 5px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.link-normal:hover{
+  opacity: 1;
+  filter: brightness(2);
+}
+
+.link-outline{
+  text-transform: uppercase;
+  margin-right: 5px;
+  text-decoration: none;
+  color: #65F0FF;
+  background: none;
+  border: 1px solid #65F0FF;
+  border-radius: 5px;
+  padding: 5px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+label{
+  margin-bottom: 5px;
+
+}
+
+input, select, textarea{
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  padding-left: 5px;
+  margin-bottom: 15px;
+  background: #f8f8f8c4;
+}
+
+textarea{
+  min-height: 150px;
+  resize: vertical;
+}
+
+button{
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background: #303030;
+  color: white;
+  cursor: pointer;
+}
+
+.error{
+  color: rgb(245, 151, 151);
+  font-size: 12px;
+}
+
+.table-container{
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 30px;
+}
+
+
+.table-container h1{
+  margin: 15px 0;
+}
+
+.table-container table a{
+  text-transform: uppercase;
+  margin-right: 5px;
+  text-decoration: none;
+  color: #65F0FF;
+  background: #151515;
+  border: 0;
+  border-radius: 5px;
+  padding: 5px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.table-container table a:hover{
+  opacity: 1;
+  filter: brightness(2);
+}
